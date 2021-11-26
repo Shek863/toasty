@@ -3,12 +3,12 @@ package me.company.toasty;
 import android.content.Context;
 import android.widget.Toast;
 
-public class main {
+public class Toasty {
 
-    public static void toastyLong(String msg ,Context context) {
+    public static void Long(String msg ,Context context) {
         Toast.makeText(context, msg , Toast.LENGTH_LONG).show();
     }
-    public static void toastyShort(String msg ,Context context) {
+    public static void Short(String msg ,Context context) {
         Toast.makeText(context, msg , Toast.LENGTH_SHORT).show();
     }
 
